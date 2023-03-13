@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -6,6 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
+/* eslint-disable no-unused-vars */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -30,3 +32,4 @@ eval("\n\n//# sourceURL=webpack://leaderboard-/./src/index.js?");
 /******/ 	
 /******/ })()
 ;
+/* eslint-disable no-unused-vars */
