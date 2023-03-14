@@ -36,6 +36,12 @@ main {
   padding: 0;
 }
 
+li {
+  list-style: none;
+  padding: 10px 10px;
+  border: 0.5px solid rgb(199, 178, 178);
+}
+
 .score-form {
   width: 50%;
   display: flex;
