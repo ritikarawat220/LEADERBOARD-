@@ -1,46 +1,163 @@
-# Leaderboard
+<a name="readme-top"></a>
 
-> Leaderboard project for Microverse.
+<div align="center">
 
-## Built With
+  <h3><b>Leaderboard</b></h3>
 
-- HTML
-- CSS
-- JavaScript
-- Webpack
+</div>
 
-## Getting Started
+<!-- TABLE OF CONTENTS -->
 
-Clone the repo and enter the directory.
+# 📗 Table of Contents
 
-```shell
-git clone https://github.com/ritikarawat220/LEADERBOARD-.git && cd LEADERBOARD-
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Leaderboard <a name="about-project"></a>
+
+Leaderboard is a simple web app that fetches data from api and display them, it can also send requests to the same api to save data, it uses modular architechture aswell as webpack.
+
+## 🛠 Built With <a name="built-with"></a>
+HTML, CSS, NodeJS
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Structure</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Style</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Module Bundler</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+  </ul>
+</details>
+
+
+<details>
+<summary>Linters</summary>
+  <ul>
+    <li><a href="https://webhint.io/">Webhint</a></li>
+    <li><a href="https://stylelint.io/">Stylelint</a></li>
+    <li><a href="https://eslint.org/">ESLint</a></li>
+  </ul>
+</details>
+
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Modular JS architecture.
+  - Use Modules.
+
+- Module Bundler.
+  - Use Webpack.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Link comming soon
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+  
+  
+### Prerequisites
+
+In order to run this project you need:
+  Open terminal on the same folder of the project and run:
+```sh
+ npm install
 ```
 
-After this you can run the app by opening `index.html` under the `src` directory.
+### Setup
 
-If you want to experiment with the app follow these simple example steps.
-
-### Prerequisites
-You need to have `npm` installed on your local machine.
-
+Clone this repository to your desired folder:
+```sh
+  cd my-folder
+  git clone https://github.com/ritikarawat220/LEADERBOARD-.git
+```
 ### Install
-Install the npm packages.
 
-```shell
-npm install
+Install this project with:
+```sh
+  cd Leaderboard
+  npm install
 ```
 
 ### Usage
 
-Run `npm run start` to start the local server and try the app.
+Run Dev Server (Port 3000)
 
-```shell
-npm run start
+```
+  npm run dev
+```
+
+### Build for production
+
+```
+npm run build
+```
+
+### Run tests
+
+- ### Linter Tests
+
+To run tests, run the following command:
+
+To check for html errors run:
+```sh
+  npx hint .
+```
+To check for css errors run:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+To check for js errors run:
+```sh
+  npx eslint .
 ```
 
 
-## Author(s)
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Ritika Rawat**
 
@@ -48,6 +165,66 @@ npm run start
 - Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rawatritika/)
 
-## Show your support
+<!-- FUTURE FEATURES -->
 
-Give a ⭐️ if you like this project!
+## 🔭 Future Features <a name="future-features"></a>
+
+- Hit the API.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ritikarawat220/LEADERBOARD-/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project send your feedback to encourage me to do more.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for offering me this opportunity to learn, and practice my skills.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+-Why use linters?
+
+  - The use of linters helps to diagnose and fix technical issues, also linters can help teams achieve a more readable and consistent style, through the enforcement of its rules.
+
+
+-Why use modular programming?
+
+  - Modular programming usually makes your code easier to read because it means separating it into functions that each only deal with one aspect of the overall functionality.
+
+-Why use a Bundler?
+
+  - It keeps track of which files depend on which other files and ensures they are loaded in the right order. This helps make your code more modular and easier to maintain.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [LICENSE](https://github.com/codedit334/Leaderboard/blob/main/LICENSE) licensed.
+(Check the LICENSE file)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

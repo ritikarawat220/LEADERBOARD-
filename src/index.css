@@ -6,6 +6,7 @@ main {
   display: grid;
   grid-gap: 40px;
   grid-template-columns: 3fr 4fr;
+  margin-left: 10px;
 }
 
 .header,
