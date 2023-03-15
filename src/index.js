@@ -8,7 +8,7 @@ const refreshButton = document.getElementById("refresh-btn");
 const form = document.getElementById("form");
 
 refreshButton.addEventListener("click", () => {
-  getScores(TEST_GAME_ID).then((scores) => {
+  getScores().then((scores) => {
     itemList(scores.result);
   });
 });
@@ -25,5 +25,6 @@ form.addEventListener("submit", (e) => {
 });
 
 getScores(TEST_GAME_ID).then((scores) => {
-  itemList(scores.result);
+  const { result } = scores;
+  itemList(result); 
 });
