@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+
 body {
   margin: 0;
+  font-family: 'Arcade', sans-serif;
+  transition: background-color 0.3s linear;
+  height: 100vh;
+  position: relative;
+  padding: 0;
+  background-image: url(./images/l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 110vh;
 }
 
 main {
@@ -7,6 +18,54 @@ main {
   grid-gap: 40px;
   grid-template-columns: 3fr 4fr;
   margin-left: 10px;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px rgb(255, 0, 212),
+      0 0 80px rgb(255, 0, 149),
+      0 0 90px rgb(238, 0, 255),
+      0 0 100px rgb(85, 0, 255),
+      0 0 150px rgb(234, 255, 0);
+}
+
+h1 {
+  width: fit-content;
+  text-align: center;
+  padding: 2rem;
+  font-size: 4.2rem;
+  animation: flicker 1.5s infinite alternate;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px rgb(255, 0, 212),
+      0 0 80px rgb(255, 0, 149),
+      0 0 90px rgb(255, 0, 0),
+      0 0 100px rgb(8, 0, 255),
+      0 0 150px rgb(234, 255, 0);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
 }
 
 .header,
@@ -35,12 +94,33 @@ main {
 .leaderboard-list {
   margin: 0;
   padding: 0;
+  background-color: white;
+  border: 1px solid #2a2a2a;
+  max-height: 55vh;
+  overflow: auto;
+  box-shadow: inset 0 0 5px grey;
+}
+
+.leaderboard-list::-webkit-scrollbar {
+  width: 20px;
+}
+
+.leaderboard-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+}
+
+.leaderboard-list::-webkit-scrollbar-thumb {
+  background: #000000;
 }
 
 li {
   list-style: none;
   padding: 10px 10px;
-  border: 0.5px solid rgb(199, 178, 178);
+  font-family: 'Arcade', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0.5px solid rgb(0, 0, 0);
 }
 
 .score-form {
