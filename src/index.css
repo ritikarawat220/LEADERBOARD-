@@ -83,9 +83,6 @@ h1 {
     0 0 151px red;
 }
 
-
-
-/* Flickering animation */
 @keyframes flicker {
   0%,
   18%,
