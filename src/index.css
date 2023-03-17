@@ -116,22 +116,3 @@ li {
 .submit-btn {
   align-self: flex-end;
 }
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
-  height: 80px;
-}
-
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-@media screen and (max-width: 780px) {
-  footer p {
-    font-size: 12px;
-  }
-}
