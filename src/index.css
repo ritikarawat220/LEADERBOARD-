@@ -1,35 +1,97 @@
-body {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+
+* {
+  box-sizing: border-box;
 }
 
-main {
-  display: grid;
-  grid-gap: 40px;
-  grid-template-columns: 3fr 4fr;
-  margin-left: 10px;
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: hsla(0, 0%, 13%, 1);
+  color: hsla(240, 8%, 93%, 1);
+  height: 100vh;
+  position: relative;
+  padding: 0;
+}
+
+button {
+  background-color: #292c35;
+  color: #fff;
+  border: none;
+  padding: 7px;
+  border-radius: 50px;
+  width: 90px;
+  font-weight: 700;
+}
+
+button:hover {
+  transition: background-color 0.3s linear;
+  background-color: #45267e;
+}
+
+input {
+  padding: 10px;
+  border: none;
 }
 
 .header,
 .main {
-  margin-left: 10%;
-  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
-.leaderboard {
-  border-radius: 6px;
-  border: 2px solid gray;
+.header {
+  padding: 25px 10%;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 40px;
+  padding: 3% 10%;
+  background-color: #f08;
+  transition: background-color 0.3s linear;
+}
+
+@media screen and (max-width: 780px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .form-container {
+    grid-row: 2;
+  }
+}
+
+h2 {
+  margin: 0;
+  color: black;
 }
 
 .leaderboard-header {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .refresh-btn {
-  display: flex;
-  align-self: center;
   height: 50%;
+  align-self: center;
+}
+
+.leaderboard {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 433px;
+  overflow: auto;
+  background-color: #fff;
+  color: white;
 }
 
 .leaderboard-list {
@@ -39,12 +101,13 @@ main {
 
 li {
   list-style: none;
-  padding: 10px 10px;
-  border: 0.5px solid rgb(199, 178, 178);
+  padding: 10px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #27031d;
+  border: 0.5px solid hsla(0, 0%, 13%, 0.5);
 }
 
 .score-form {
-  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -52,5 +115,23 @@ li {
 
 .submit-btn {
   align-self: flex-end;
-  width: 30%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 80px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+  footer p {
+    font-size: 12px;
+  }
 }
