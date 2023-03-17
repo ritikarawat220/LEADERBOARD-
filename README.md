@@ -35,6 +35,11 @@
 
 Leaderboard is a simple web app that fetches data from api and display them, it can also send requests to the same api to save data, it uses modular architechture aswell as webpack.
 
+<table>
+  <td style="border: 1px solid black;"><img src="src/ss/desktp-ss.png" alt="Leaderboard" /></td>
+  <img src="src/ss/mobile-ss.png" alt="Leaderboard" />
+  </table>
+
 ## 🛠 Built With <a name="built-with"></a>
 HTML, CSS, NodeJS
 ### Tech Stack <a name="tech-stack"></a>
