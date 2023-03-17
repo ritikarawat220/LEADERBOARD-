@@ -6,7 +6,7 @@ const itemList = (list) => {
       const listElement = document.createElement("li");
       listElement.innerHTML = `${item.user}: ${item.score}`;
       if (i % 2 === 1) {
-        listElement.style.backgroundColor = "#d3d3";
+        listElement.style.backgroundColor = "#fff";
       }
       leaderboardList.appendChild(listElement);
     });
