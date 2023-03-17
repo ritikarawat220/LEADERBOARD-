@@ -16,7 +16,7 @@ body {
 }
 
 button {
-  background-color: #292c35;
+  background-color: #000;
   color: #fff;
   border: none;
   padding: 7px;
@@ -48,6 +48,7 @@ input {
 
 .header h1 {
   margin: 0;
+  font-family: cursive;
 }
 
 .main {
@@ -72,6 +73,7 @@ input {
 h2 {
   margin: 0;
   color: black;
+  font-family: cursive;
 }
 
 .leaderboard-header {
@@ -101,8 +103,9 @@ h2 {
 
 li {
   list-style: none;
+  font-weight: bold;
   padding: 10px 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: cursive;
   color: #27031d;
   border: 0.5px solid hsla(0, 0%, 13%, 0.5);
 }
