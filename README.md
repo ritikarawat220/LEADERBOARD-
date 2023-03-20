@@ -92,7 +92,7 @@ HTML, CSS, NodeJS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- link [https://ritikarawat220.github.io/LEADERBOARD-/]
+- Check **Live Demo** [here.](https://ritikarawat220.github.io/LEADERBOARD-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
