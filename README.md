@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Leaderboard</b></h3>
+  <h1><b>Leaderboard</b></h1>
 
 </div>
 
@@ -92,7 +92,7 @@ HTML, CSS, NodeJS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Link comming soon
+- link [https://ritikarawat220.github.io/LEADERBOARD-/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
