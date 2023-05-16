@@ -22,11 +22,11 @@ form.addEventListener("submit", (e) => {
 
   // Check that the name and score have no more than 20 letters and 10 digits
   if (name.length > 20) {
-    alert("Name must have no more than 20 letters");
+    alert("Oopsie! Your name can't be longer than 20 letters. Keep it short and snappy, like a ninja!");
     return;
   }
   if (score.toString().length > 10) {
-    alert("Score must have no more than 10 digits");
+    alert("Whoa there, cowboy! Scores can't have more than 10 digits. Are you trying to break the game or what?");
     return;
   }
 
