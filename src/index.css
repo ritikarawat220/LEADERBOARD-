@@ -101,13 +101,16 @@ h2 {
   padding: 0;
 }
 
+.leaderboard-container {
+  width: 900px;
+}
+
 li {
   list-style: none;
   font-weight: bold;
   padding: 10px 20px;
   font-family: cursive;
   color: #27031d;
-  border: 0.5px solid hsla(0, 0%, 13%, 0.5);
 }
 
 .score-form {
